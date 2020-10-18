@@ -36,7 +36,7 @@ public class Retangulo {
 	public String toString() 
 	{
 		return "pontos:"+this.p1+" // "+this.p2+" // "+this.p3+" // "+this.p4
-			+ "\n" +"Area:"+ this.area()+"\nPerimeter:" +this.perimetro()+"\n";
+			+ "\n" +"Area:"+ this.area()+"\nPerimetro:" +this.perimetro()+"\n";
 	}
 	
 	private double perimetro() 
