@@ -1,15 +1,19 @@
-package aula2.ex1;
+package aula2;
 
-public class Student extends Person 
-{
+public class Student extends Client {
 	private int mec;
-	private String Curso;
+	private String course;	
+
+	public Student (String name, int cc, Date age, int partner, Date regist, int mec, String course) {
+		super(name,cc,age,partner,regist);
+		this.mec = mec;
+		this.course = course;		
+	}
 	
-	public Student(String nome, int CC, String data, int mec, String Curso) {
-		super(nome, CC, data);
-		this.Curso= Curso;
-		this.mec= mec;
-		
+	public int getMec() {
+		return this.mec;
+	}
+	public String getCourse() {
+		return this.course;
 	}
 }
-
