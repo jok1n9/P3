@@ -1,4 +1,4 @@
-package aula3;
+package aula3.ex1;
 
 public class Bolseiro extends Student{
 	private double amount;

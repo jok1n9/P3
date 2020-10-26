@@ -1,4 +1,4 @@
-package aula3;
+package aula3.ex2;
 
 public abstract class Figure {
 	private static int count = 1;

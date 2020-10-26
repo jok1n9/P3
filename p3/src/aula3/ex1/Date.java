@@ -1,4 +1,4 @@
-package aula3;
+package aula3.ex1;
 import java.time.LocalDate;
 
 public class Date {

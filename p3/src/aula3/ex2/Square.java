@@ -1,4 +1,4 @@
-package aula3;
+package aula3.ex2;
 
 public class Square extends Rectangle{
 	private double width;

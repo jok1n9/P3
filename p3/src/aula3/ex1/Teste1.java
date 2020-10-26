@@ -1,4 +1,4 @@
-package aula3;
+package aula3.ex1;
 
 public class Teste1 {
 

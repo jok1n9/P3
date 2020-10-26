@@ -1,4 +1,4 @@
-package aula3;
+package aula3.ex2;
 
 public class Circle extends Figure{
 	private Point center;
