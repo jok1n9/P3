@@ -1,4 +1,4 @@
-package aula2.ex2;
+package aula3.ex3;
 
 public class Person {
 	private String nome;

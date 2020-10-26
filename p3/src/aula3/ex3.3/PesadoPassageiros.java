@@ -1,8 +1,8 @@
-package aula2.ex2;
+package aula3.ex3;
 
 public class PesadoPassageiros extends Veiculo {
 	public PesadoPassageiros(int cilindrada,int potencia,int lotacao,
-			char tipocarta, int pesobruto) 
+			int pesobruto) 
 		{
 		super(cilindrada, potencia, lotacao, 'D', pesobruto);
 		}
