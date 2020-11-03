@@ -45,8 +45,10 @@ public class VideoClub {
 		int index = getClientIndex(partner);
 		if(index == -1) {
 			System.out.print("This client is not in the list.\n");
-		}		
-		this.clients.get(index).showHistory();		
+		}
+		else {
+			this.clients.get(index).showHistory();
+		}				
 	}
 	
 	public void checkOut() {			
