@@ -13,13 +13,17 @@ public class Bicicletapolicia extends Bicicleta {
 	public String getTipo() {return this.tipo;}
 	public String getId() {return this.id;}
 	public enum Tipos{
-		INEM, Bombeiros, GNR, PSP, PJ
+		INEM, BOMBEIROS, GNR, PSP, PJ
 	}
 	public boolean checkTipos(String tipo) {
 		for(Tipos n: Tipos.values()) {
-			if( n.toString() == tipo) return true;
+			if( n.toString().toUpperCase() == tipo) return true;
 		}
 	return false;
+	}
+	@Override
+	public String toString() {
+		return "Bicicletapolicia[id=" + id+", tipo="+ tipo+"]"+ "[cor=" + getColor() + ", numerodas=" + getNumerodas()+ ", data="+getAno()+"]";
 	}
 }
 

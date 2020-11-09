@@ -12,6 +12,8 @@ public class Motorizado extends Veiculo {
 						String matricula, String combustivel, int potencia,String color, int numerodas) 
 	{
 		super(color,ano, numerodas);
+		assert(cilindrada>0 && potencia>0&& consumo >0 && maxvelocidade>0);
+
 		this.cilindrada= cilindrada;
 		this.combustivel= combustivel;
 		this.potencia= potencia;
@@ -43,7 +45,7 @@ public class Motorizado extends Veiculo {
 	@Override
 	public String toString() {
 		return "[cilindrada=" + cilindrada + ", maxvelocidade=" + maxvelocidade +", matricula=" + matricula+ ", combustível=" +combustivel+ 
-				", potencia=" + potencia+ ", consumo=" + consumo+  super.toString() + "]";
+				", potencia=" + potencia+ ", consumo=" + consumo+", " + super.toString() + "]";
 	}
 }
 

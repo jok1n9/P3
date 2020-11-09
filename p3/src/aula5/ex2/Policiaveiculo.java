@@ -14,11 +14,7 @@ public class Policiaveiculo extends Motorizado {
 	}
 	@Override
 	public String toString() {
-		return "Policiaveiculo [id=" + id + ", tipo=" + tipo + ", getMaxvelocidade()=" + getMaxvelocidade()
-				+ ", getPotencia()=" + getPotencia() + ", getConsumo()=" + getConsumo() + ", getCombustivel()="
-				+ getCombustivel() + ", getCilindrada()=" + getCilindrada() + ", getMatricula()=" + getMatricula()
-				+ ", toString()=" + super.toString() + ", getColor()=" + getColor() + ", getAno()=" + getAno()
-				+ ", getNumerodas()=" + getNumerodas() + "]";
+		return "Policiaveiculo [id=" + id+", tipo="+ tipo+"]"+ super.toString();
 	}
 	public String getTipo() {return this.tipo;}
 	public String getId() {return this.id;}
