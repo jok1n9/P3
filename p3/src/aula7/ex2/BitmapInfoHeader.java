@@ -37,8 +37,11 @@ public class BitmapInfoHeader {
 		public int getWidth() {
 			return width;
 		}
+		public void setWidth(int a) {
+			this.width= a;
+		}
 		public int getHeight() {
-			return height;
+			return Math.abs(height);
 		}
 		public short getPlanes() {
 			return planes;
@@ -63,6 +66,11 @@ public class BitmapInfoHeader {
 		}
 		public int getClrImportant() {
 			return clrImportant;
+		}
+
+		public void setHeight(int round) {
+			this.height= round;
+			
 		}
 		
 }
