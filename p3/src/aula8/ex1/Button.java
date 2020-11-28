@@ -58,14 +58,14 @@ public class Button implements ActionListener {
 		{ 	
 		JToggleButton b= (JToggleButton) event.getSource();
 		b.setEnabled(false);
-		if(played%2==0) b.setText("x");
-		else {b.setText("O");}
+		if(played%2==0) b.setIcon(new ImageIcon("vsr.png"));
+		else {b.setIcon(new ImageIcon("vsv.png"));}
 		play(b);
 		
 		
 			if(checkwin(plays)) {
-				if(played%2==0) JOptionPane.showMessageDialog(galo, "O won"); 
-				else JOptionPane.showMessageDialog(galo, "X WON");
+				if(played%2==0) JOptionPane.showMessageDialog(galo, "As Cruzes Ganharam"); 
+				else JOptionPane.showMessageDialog(galo, "As Bolas Ganharam!");
 				
 				reset();}
 			if(Button.played==9) {
@@ -78,7 +78,7 @@ public class Button implements ActionListener {
 		{
 			for(int y = 0; y < 3; y++)
 			{
-				Button.buts[x][y].setText(null);
+				Button.buts[x][y].setIcon(null);
 				Button.buts[x][y].setSelected(false);	
 				Button.buts[x][y].setEnabled(true);
 			}
