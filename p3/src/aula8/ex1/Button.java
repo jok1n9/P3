@@ -35,7 +35,7 @@ public class Button implements ActionListener {
 				panel.add(b);
 			}
 		}
-		panel.setOpaque(true);
+		
 		this.galo.add(panel);
 		
 	}
@@ -58,14 +58,14 @@ public class Button implements ActionListener {
 		{ 	
 		JToggleButton b= (JToggleButton) event.getSource();
 		b.setEnabled(false);
-		if(played%2==0) b.setIcon(new ImageIcon("vsr.png"));
-		else {b.setIcon(new ImageIcon("vsv.png"));}
+		if(played%2==0) b.setIcon(new ImageIcon("vsr.jpg"));
+		else {b.setIcon(new ImageIcon("vsv.jpg"));}
 		play(b);
 		
 		
 			if(checkwin(plays)) {
-				if(played%2==0) JOptionPane.showMessageDialog(galo, "As Cruzes Ganharam"); 
-				else JOptionPane.showMessageDialog(galo, "As Bolas Ganharam!");
+				if(played%2==0) JOptionPane.showMessageDialog(galo, "Zero-Two Ganhou"); 
+				else JOptionPane.showMessageDialog(galo, "Hikigaya Ganhou");
 				
 				reset();}
 			if(Button.played==9) {
