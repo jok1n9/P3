@@ -1,0 +1,15 @@
+src/aula8/ex3/imgs/img0.png--Número de membros tem o sapo?--4--2--3--1--0--0
+src/aula8/ex3/imgs/img1.png--Qual foi o primeiro Rei de Portugal?--D. Afonso Henriques--Napoleão--Lady Gaga--Eusébio--0--0
+src/aula8/ex3/imgs/img0.png--A Guerra dos Balões do DETI opõe?--CT TSI vs ET--ET vc CT--CT ET vs TSI--ET TSI vs CT--0--0
+src/aula8/ex3/imgs/picasso.jpg--Qual era o primeiro nome de Picasso?--Tito--Eugénio--Diego--Pablo--3--0
+src/aula8/ex3/imgs/uefa.png--Qual é o clube de futebol português com mais títulos oficiais da UEFA?--SLB--SCB--FCP--SCP--2--0
+src/aula8/ex3/imgs/img1.png--Qual foi o Cognome do sexto Rei de Portugal?--O Desejado--O Lavrador--O Africano--O Povoador--1--1
+src/aula8/ex3/imgs/banana.png--Qual o símbolo do Potássio?--K--Po--P--Pt--0--1
+src/aula8/ex3/imgs/universe.jpg--Qual é o elemento mais abundante no Universo?--Ouro--Oxigénio--Ferro--Hidrogénio--3--1
+src/aula8/ex3/imgs/mineral.png--Qual destes materiáis é o mais precioso?--Ouro--Platina--Prata--Bronze--1--1
+src/aula8/ex3/imgs/beiramar.png--Como se chama a claque do Beira-Mar?--Auri-Negros--Milhafres--Pac Mans--Beira Beira--0--1
+src/aula8/ex3/imgs/img1.png--Qual a data da Batalha de Aljubarrota?--1385--1445--1259--1301--0--2
+src/aula8/ex3/imgs/dino.png--Tyrannosaurus Rex significa?--Tirano dos Répteis--Dinossauro tirano rei--Rei dos lagartos--lagarto tirano rei--3--2
+src/aula8/ex3/imgs/pessoa.png--Fernando Pessoa desdobrava-se em quantas entidades literárias?--1--3--2--4--3--2
+src/aula8/ex3/imgs/raiox.png--Quem descobriu o raio-x?--Wilhelm Conrad Röntgen--Hermann von Helmholtz--Fernando Sanford--Nikola Tesla--0--2
+src/aula8/ex3/imgs/mineral.png--Qual é o número atómico do laurêncio?--99--103--40--15--1--2
