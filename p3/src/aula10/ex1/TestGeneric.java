@@ -1,0 +1,61 @@
+package aula10.ex1;
+
+import java.util.Iterator;
+
+import aula3.ex1.*;
+import aula5.ex1.*;
+
+
+public abstract class TestGeneric {
+	public static void main(String[] args) {
+		VectorGeneric<Person> vp = new VectorGeneric<Person>();
+		for (int i=0; i<10; i++)
+			vp.addElem(new Person("Bebé no Vector "+i,
+					1000+i, Date.today()));
+		Iterator<Person> vec = vp.iterator();
+		printSet(vp.iterator());
+		ListaGeneric<Person> lp = new ListaGeneric<Person>();
+		while ( vec.hasNext() )
+			lp.addElem( vec.next() );
+		Iterator<Person> lista = lp.iterator();
+		while ( lista.hasNext() )
+			System.out.println( lista.next() );
+		ListaGeneric<Figure> figList = new ListaGeneric<Figure>();
+		figList.addElem(new Circle (1,3, 1));
+		figList.addElem(new Square(3,4, 2));
+		figList.addElem(new Rectangle(1,2, 2,5));
+		printSet(figList.iterator());
+		System.out.println("Soma da Area de Lista de Figuras: " +
+							sumArea(figList));
+		// Partindo do principio que Quadrado extends Rectangulo:
+		ListaGeneric< Rectangle > quadList =
+				new ListaGeneric<Rectangle>();
+		quadList.addElem(new Square(3,4, 2));
+		quadList.addElem(new Rectangle(1,2, 2,5));
+		System.out.println("Soma da Area de Lista de Quadrados: " +
+							sumArea(quadList));
+	}
+
+	
+	public static<T extends Figure> double sumArea(ListaGeneric<T> list)
+	{
+		
+		double area = 0;
+		
+		for(Figure f : list)
+		{
+			area += f.getArea();
+		}
+		
+		return area;
+	}
+	
+	public static void printSet(Iterator set)
+	{
+		do
+		{
+			System.out.println(set.next());
+		}
+		while(set.hasNext());
+	}
+}
